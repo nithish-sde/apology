@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import "./App.css";
-
+import about from "./images/about.png"
+import coding from "./images/coding.png"
+import drink from "./images/drink.png"
+import hi from "./images/hi.jpg"
 function App() {
   const [question, setQuestion] = useState("You still hate me?");
   const [highlight, setHighlight] = useState(false);
@@ -50,7 +53,7 @@ function App() {
       {/* About Section */}
       <section className="section section-about">
         <div className="image">
-          <img src="/images/about.png" alt="About" />
+          <img src={about} alt="About" />
         </div>
         <div className="text">
           <h1>About Me</h1>
@@ -71,13 +74,13 @@ And those long walks… we talked endlessly, sometimes about nothing, sometimes 
 They weren’t just memories, they were pieces of peace I carry with me. And honestly, I miss that peace… I miss us.</p>
         </div>
         <div className="image">
-          <img src="/images/hi.jpg" alt="Hi" />
+          <img src={hi} alt="Hi" />
         </div>
       </section>
 
       <section className="section section-2">
         <div className="image">
-          <img src="/images/drink.png" alt="Drink" />
+          <img src={drink} alt="Drink" />
         </div>
         <div className="text">
           <h1>Your Drink!</h1>
@@ -123,7 +126,7 @@ Give me a chance to show you that I’ve been paying attention… and that I sti
     </p>
   </div>
   <div className="image">
-    <img src="/images/coding.png" alt="I'll keep coding until you reply" />
+    <img src={coding} alt="I'll keep coding until you reply" />
   </div>
 </section>
 
