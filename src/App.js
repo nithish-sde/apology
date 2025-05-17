@@ -4,6 +4,8 @@ import about from "./images/about.png"
 import coding from "./images/coding.png"
 import drink from "./images/drink.png"
 import hi from "./images/hi.jpg"
+import walk from "./images/walk.png"
+
 function App() {
   const [question, setQuestion] = useState("You still hate me?");
   const [highlight, setHighlight] = useState(false);
@@ -90,7 +92,32 @@ This time, I’ve got it right. Just the way you like it separately, perfectly, 
 Give me a chance to show you that I’ve been paying attention… and that I still care, more than ever.</p>
         </div>
       </section>
+      <section className="section section-github">
+  <div className="text">
+    <h1>How I Made This Site 💻</h1>
+    <p>
+      So... you liked the website? 😳<br /><br />
+      And now you wanna know how I hosted it? Well, get ready for the most <strong>romantic tech tutorial</strong> you've ever seen. 😎<br /><br />
 
+      🛠️ Step 1: I coded it with VS Code and a cup of coffee.<br />
+      🌐 Step 2: I pushed it to GitHub because even my code needs a home.<br />
+      🚀 Step 3: I deployed it using GitHub Pages the magical moment where code turns into ✨feelings✨ on the internet.<br /><br />
+
+      No wires, no servers, just one guy trying to turn emotions into HTML.<br /><br />
+
+      And honestly… it wasn’t <em>that</em> hard. But making <strong>you</strong> smile? That part needed the most debugging. 😅<br /><br />
+
+      I’d love to walk you through more show you my favorite tricks, and maybe even learn a things from you too.<br /><br />
+
+      So what do you say, Mona?<br />
+      <strong>Just a walk where I explain git commits while getting lost in your eyes? maybe</strong>
+    </p>
+  </div>
+  <div className="image">
+    <img src={walk} alt="Pleading the angry girl" />
+    <p style={{textAlign: "center"}}>You are angry on me now so situational image... 😅</p>
+  </div>
+</section>
       <section className="section section-3">
         <div className="text-full">
           <h1>Finally I'm Realizing...</h1>
