@@ -5,6 +5,7 @@ import coding from "./images/coding.png"
 import drink from "./images/drink.png"
 import hi from "./images/hi.jpg"
 import walk from "./images/walk.png"
+import care from "./images/care.png"
 
 function App() {
   const [question, setQuestion] = useState("You still hate me?");
@@ -52,6 +53,25 @@ function App() {
     <a href="#contact" className="nav-link">Contact</a>
   </nav>
 </header>
+      <section className="section section-caring">
+  <div className="text">
+    <h1>Caring Moments 💙</h1>
+    <p>When you’re in pain, especially with migraines and sinus issues, I wish I could be right there beside you. Here are some simple things that might help, straight from the heart — no tablets, no doctors, just love and care:</p>
+    <ul style={{ paddingLeft: "20px", marginTop: "10px" }}>
+      <li>🌿 Steam inhalation with eucalyptus or Vicks</li>
+      <li>🧊 Cold compress on forehead for migraine relief</li>
+      <li>🌡️ Warm compress on cheeks for sinus pressure</li>
+      <li>🍵 Drink warm fluids like ginger or tulsi tea</li>
+      <li>🛏️ Rest in a dark, quiet room to ease headaches</li>
+      <li>🌸 Try light aromatherapy like lavender or peppermint</li>
+      <li>💧 Stay hydrated and reduce screen strain</li>
+    </ul>
+  </div>
+  <div className="image">
+    <img src={care} alt="Caring Illustration" />
+  </div>
+</section>
+
       {/* About Section */}
       <section className="section section-about">
         <div className="image">

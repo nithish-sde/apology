@@ -218,3 +218,7 @@ nav .nav-link:hover {
 html {
   scroll-behavior: smooth;
 }
+.section-caring {
+   /* soft yellow for care vibe */
+  border-radius: 12px;
+}
