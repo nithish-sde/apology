@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/apology/static/css/main.5ad566f8.css",
-    "main.js": "/apology/static/js/main.8400aec5.js",
+    "main.css": "/apology/static/css/main.e08aed62.css",
+    "main.js": "/apology/static/js/main.73feafd4.js",
     "static/media/walk.png": "/apology/static/media/walk.87df78fd0b1626492fb5.png",
     "static/media/coding.png": "/apology/static/media/coding.30f7c86ce54c8f2493dc.png",
     "static/media/about.png": "/apology/static/media/about.d7e5677554cba06b3dcb.png",
+    "static/media/care.png": "/apology/static/media/care.93783fcefab6836611b6.png",
     "static/media/drink.png": "/apology/static/media/drink.86b51daec960c314a37c.png",
     "static/media/hi.jpg": "/apology/static/media/hi.fbdea4e622976b45b918.jpg",
     "index.html": "/apology/index.html",
-    "main.5ad566f8.css.map": "/apology/static/css/main.5ad566f8.css.map",
-    "main.8400aec5.js.map": "/apology/static/js/main.8400aec5.js.map"
+    "main.e08aed62.css.map": "/apology/static/css/main.e08aed62.css.map",
+    "main.73feafd4.js.map": "/apology/static/js/main.73feafd4.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ad566f8.css",
-    "static/js/main.8400aec5.js"
+    "static/css/main.e08aed62.css",
+    "static/js/main.73feafd4.js"
   ]
 }
